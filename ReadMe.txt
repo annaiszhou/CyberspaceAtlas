@@ -1,8 +1,14 @@
-**********************************************************************************
 Author: Zhou Weiwei,Zhang Jun
-Date£º 2017/11/20
-¼ò½é£º
-Ê¹ÓÃ£º
-1. ÔËĞĞ³ÌĞò£¬Ê×ÏÈ»áµÃÑ¡ÔñÔ´Êı¾İÎÄ¼ş£¬±¾³ÌĞòÎªÑİÊ¾³ÌĞò£¬ÒÑÌá¹©Á½·İÑİÊ¾ÓÃµÄ´¦Àí¹ıµÄÔ´Êı¾İÎÄ¼ş£¬·Ö±ğÎªnew_IP_Coordinates.txtºÍnew_IP_Coordinates_2.txt£»
-2. ´ò¿ªÎÄ¼şºó»áµÃµ½³õÊ¼»¯Í¼Ïñ£¬²»Í¬ÑÕÉ«´ú±í²»Í¬µÄASN£¨×ÔÖÎÓòºÅÂë£©£¬°×É«´ú±í¸ÃµãIPÎ´Ê¹ÓÃ£¨ÔÚ´Ë´¦´ú±í¸ÃµãÎŞÊı¾İ£©£¬³õÊ¼»¯Í¼Ïñ·Ö±æÂÊÎª255.255.255.255/16£¬¼´·Ö±æÂÊ¾«È·µ½IPµÄÇ°16Î»£¬Ã¿Ò»¸öÏñËØµã¶ÔÓ¦2^(32-16)=65536¸öIP£¬ÆäËû·Ö±æÂÊÈç´ËÀàÍÆ£»
-3. Êó±ê×ó¼üµ¥»÷Í¼ÏñÈÎÒ»µãÏÂ·½×´Ì¬À¸»áÏÔÊ¾¸Ãµã¶ÔÓ¦µÄIP£»
+Dateï¼š 2017/11/20
+How to use:
+1.	This is a demo for the visualization of cyberspace atlas. Run the CyberspaceAtlas.py, then choose the data source file. There are two processed data source file for demo, which is new_IP_Coordinates.txt and new_IP_Coordinates_2.txt
+2.	Open the file. Then the image initialized. Different colors represent different ASN numbers. White color represent that the IP address is not used. (No data at this point). The pixel of initialization image is 255.255.255.255/16, which means the pixel is correct to the top 16 digits of IP address and every pixel is corresponding to 65536 IP addresses (2^(32-16)=65536). And so on, for other pixels.
+3.	Click the left button of the mouse on each point of the image. Then the corresponding IP address will be shown in the status bar below that point.
+------------------------------------------------------------------------------------------------------------------------------------------
+Author: Zhou Weiwei,Zhang Jun
+Dateï¼š 2017/11/20
+ç®€ä»‹ï¼š
+ä½¿ç”¨ï¼š
+1. è¿è¡Œç¨‹åºï¼Œé¦–å…ˆä¼šå¾—é€‰æ‹©æºæ•°æ®æ–‡ä»¶ï¼Œæœ¬ç¨‹åºä¸ºæ¼”ç¤ºç¨‹åºï¼Œå·²æä¾›ä¸¤ä»½æ¼”ç¤ºç”¨çš„å¤„ç†è¿‡çš„æºæ•°æ®æ–‡ä»¶ï¼Œåˆ†åˆ«ä¸ºnew_IP_Coordinates.txtå’Œnew_IP_Coordinates_2.txtï¼›
+2. æ‰“å¼€æ–‡ä»¶åä¼šå¾—åˆ°åˆå§‹åŒ–å›¾åƒï¼Œä¸åŒé¢œè‰²ä»£è¡¨ä¸åŒçš„ASNï¼ˆè‡ªæ²»åŸŸå·ç ï¼‰ï¼Œç™½è‰²ä»£è¡¨è¯¥ç‚¹IPæœªä½¿ç”¨ï¼ˆåœ¨æ­¤å¤„ä»£è¡¨è¯¥ç‚¹æ— æ•°æ®ï¼‰ï¼Œåˆå§‹åŒ–å›¾åƒåˆ†è¾¨ç‡ä¸º255.255.255.255/16ï¼Œå³åˆ†è¾¨ç‡ç²¾ç¡®åˆ°IPçš„å‰16ä½ï¼Œæ¯ä¸€ä¸ªåƒç´ ç‚¹å¯¹åº”2^(32-16)=65536ä¸ªIPï¼Œå…¶ä»–åˆ†è¾¨ç‡å¦‚æ­¤ç±»æ¨ï¼›
+3. é¼ æ ‡å·¦é”®å•å‡»å›¾åƒä»»ä¸€ç‚¹ä¸‹æ–¹çŠ¶æ€æ ä¼šæ˜¾ç¤ºè¯¥ç‚¹å¯¹åº”çš„IPï¼›
