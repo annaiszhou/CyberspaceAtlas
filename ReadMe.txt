@@ -4,7 +4,7 @@ How to use:
 1.	This is a demo for the visualization of cyberspace atlas. Run the CyberspaceAtlas.py, then choose the data source file. There are two processed data source file for demo, which is new_IP_Coordinates.txt and new_IP_Coordinates_2.txt
 2.	Open the file. Then the image initialized. Different colors represent different ASN numbers. White color represent that the IP address is not used. (No data at this point). The pixel of initialization image is 255.255.255.255/16, which means the pixel is correct to the top 16 digits of IP address and every pixel is corresponding to 65536 IP addresses (2^(32-16)=65536). And so on, for other pixels.
 3.	Click the left button of the mouse on each point of the image. Then the corresponding IP address will be shown in the status bar below that point.
-------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------
 Author: Zhou Weiwei,Zhang Jun
 Date： 2017/11/20
 简介：
